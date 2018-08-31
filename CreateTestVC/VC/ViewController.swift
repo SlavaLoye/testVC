@@ -10,12 +10,15 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var dowloadButton: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
 
-  
+    @IBAction func downloadAction(_ sender: Any) {
+    }
+    
 
 }
 
